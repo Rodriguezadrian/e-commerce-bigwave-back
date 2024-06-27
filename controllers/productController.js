@@ -15,14 +15,41 @@ const ProductController = {
   store: (req, res) => {
     res.send("Product Store");
   },
-  show: (req, res) => {
-    res.send("Product Show");
+  show: async (req, res) => {
+    try {
+      const { slug } = req.params;
+      const product = await Product.findOne({ where: { slug } });
+      res.json(product);
+    } catch (err) {
+      console.error(err);
+      res
+        .status(500)
+        .json({ message: "There was a problem trying to get the product" });
+    }
   },
-  update: (req, res) => {
-    res.send("Product Update");
+  update: async (req, res) => {
+    try {
+      const { id } = req.params;
+      const product = await Product.update(req.body, { where: { id } });
+      res.json(product);
+    } catch (err) {
+      console.error(err);
+      res
+        .status(500)
+        .json({ message: "There was a problem trying to update the product" });
+    }
   },
-  destroy: (req, res) => {
-    res.send("Product Destroy");
+  destroy: async (req, res) => {
+    try {
+      const { id } = req.params;
+      const product = await Product.destroy({ where: { id } });
+      res.json({ msg: "Product deleted" });
+    } catch (err) {
+      console.error(err);
+      res
+        .status(500)
+        .json({ message: "There was a problem trying to delete the product" });
+    }
   },
 };
 module.exports = ProductController;
