@@ -24,4 +24,5 @@ Order.belongsTo(User);
 module.exports = {
   sequelize,
   User,
+  Product,
 };

@@ -1,0 +1,362 @@
+{
+  "0": {
+    "name": "Granola",
+    "id_category": "0",
+    "description": "Delicious and healthy granola mix.",
+    "image": "https://i.imgur.com/9y3g7aL.jpg",
+    "unit_price": 24.11,
+    "stock": 26,
+    "isOffered": true,
+    "slug": ""
+  },
+  "1": {
+    "name": "Cashew Nuts",
+    "id_category": "0",
+    "description": "Crunchy and nutritious cashew nuts.",
+    "image": "https://i.imgur.com/PO6sCrG.jpg",
+    "unit_price": 32.12,
+    "stock": 3,
+    "isOffered": false,
+    "slug": ""
+  },
+  "2": {
+    "name": "Almonds",
+    "id_category": "0",
+    "description": "Raw and wholesome almonds.",
+    "image": "https://i.imgur.com/L5mV5n8.jpg",
+    "unit_price": 28.58,
+    "stock": 33,
+    "isOffered": true,
+    "slug": ""
+  },
+  "3": {
+    "name": "Walnuts",
+    "id_category": "0",
+    "description": "Rich in omega-3 walnuts.",
+    "image": "https://i.imgur.com/sEzxZIo.jpg",
+    "unit_price": 17.18,
+    "stock": 47,
+    "isOffered": true,
+    "slug": ""
+  },
+  "4": {
+    "name": "Peanuts",
+    "id_category": "0",
+    "description": "Tasty roasted peanuts.",
+    "image": "https://i.imgur.com/ynpTHTJ.jpg",
+    "unit_price": 20.2,
+    "stock": 86,
+    "isOffered": false,
+    "slug": ""
+  },
+  "5": {
+    "name": "Corn Flakes",
+    "id_category": "0",
+    "description": "Crispy corn flakes.",
+    "image": "https://i.imgur.com/DY8x7e5.jpg",
+    "unit_price": 46.92,
+    "stock": 51,
+    "isOffered": false,
+    "slug": ""
+  },
+  "6": {
+    "name": "Oats",
+    "id_category": "0",
+    "description": "Healthy whole oats.",
+    "image": "https://i.imgur.com/wnzDEGx.jpg",
+    "unit_price": 37.95,
+    "stock": 36,
+    "isOffered": false,
+    "slug": ""
+  },
+  "7": {
+    "name": "Rye",
+    "id_category": "0",
+    "description": "Nutritious rye grains.",
+    "image": "https://i.imgur.com/zM8iv6V.jpg",
+    "unit_price": 33.8,
+    "stock": 55,
+    "isOffered": false,
+    "slug": ""
+  },
+  "8": {
+    "name": "Sesame Seeds",
+    "id_category": "0",
+    "description": "Organic sesame seeds.",
+    "image": "https://i.imgur.com/nIT1Aeq.jpg",
+    "unit_price": 12.72,
+    "stock": 16,
+    "isOffered": false,
+    "slug": ""
+  },
+  "9": {
+    "name": "Chia Seeds",
+    "id_category": "0",
+    "description": "High-fiber chia seeds.",
+    "image": "https://i.imgur.com/hw8a2T0.jpg",
+    "unit_price": 34.2,
+    "stock": 24,
+    "isOffered": false,
+    "slug": ""
+  },
+  "10": {
+    "name": "Quinoa",
+    "id_category": "0",
+    "description": "Protein-rich organic quinoa.",
+    "image": "https://i.imgur.com/OMp7TjR.jpg",
+    "unit_price": 27.21,
+    "stock": 49,
+    "isOffered": false,
+    "slug": ""
+  },
+  "11": {
+    "name": "Sunflower Seeds",
+    "id_category": "0",
+    "description": "Sunflower seeds with vitamins.",
+    "image": "https://i.imgur.com/qHgk4GA.jpg",
+    "unit_price": 22.72,
+    "stock": 22,
+    "isOffered": false,
+    "slug": ""
+  },
+  "12": {
+    "name": "Honey",
+    "id_category": "1",
+    "description": "Pure and natural honey.",
+    "image": "https://i.imgur.com/OU8YYcS.jpg",
+    "unit_price": 32.57,
+    "stock": 77,
+    "isOffered": true,
+    "slug": ""
+  },
+  "13": {
+    "name": "Cinnamon",
+    "id_category": "1",
+    "description": "Aromatic ground cinnamon.",
+    "image": "https://i.imgur.com/nEf3zYk.jpg",
+    "unit_price": 37.82,
+    "stock": 70,
+    "isOffered": false,
+    "slug": ""
+  },
+  "14": {
+    "name": "Vanilla",
+    "id_category": "1",
+    "description": "Flavorful vanilla extract.",
+    "image": "https://i.imgur.com/XyCBefW.jpg",
+    "unit_price": 22.43,
+    "stock": 75,
+    "isOffered": false,
+    "slug": ""
+  },
+  "15": {
+    "name": "Matcha",
+    "id_category": "1",
+    "description": "High-quality matcha powder.",
+    "image": "https://i.imgur.com/TxH6JPe.jpg",
+    "unit_price": 18.19,
+    "stock": 38,
+    "isOffered": false,
+    "slug": ""
+  },
+  "16": {
+    "name": "Spirulina",
+    "id_category": "1",
+    "description": "Nutrient-dense spirulina powder.",
+    "image": "https://i.imgur.com/69As2ZL.jpg",
+    "unit_price": 17.43,
+    "stock": 54,
+    "isOffered": false,
+    "slug": ""
+  },
+  "17": {
+    "name": "Sweetener",
+    "id_category": "1",
+    "description": "Natural sweetener alternative.",
+    "image": "https://i.imgur.com/4QUJZtX.jpg",
+    "unit_price": 43.97,
+    "stock": 80,
+    "isOffered": false,
+    "slug": ""
+  },
+  "18": {
+    "name": "Glucose",
+    "id_category": "1",
+    "description": "Liquid glucose syrup.",
+    "image": "https://i.imgur.com/BdVYV3J.jpg",
+    "unit_price": 10.53,
+    "stock": 91,
+    "isOffered": false,
+    "slug": ""
+  },
+  "19": {
+    "name": "Agave Syrup",
+    "id_category": "1",
+    "description": "Organic agave syrup.",
+    "image": "https://i.imgur.com/4MyOTyB.jpg",
+    "unit_price": 42.12,
+    "stock": 63,
+    "isOffered": true,
+    "slug": ""
+  },
+  "20": {
+    "name": "Peanut Butter",
+    "id_category": "1",
+    "description": "Creamy peanut butter.",
+    "image": "https://i.imgur.com/tXYkL8Y.jpg",
+    "unit_price": 25.51,
+    "stock": 52,
+    "isOffered": true,
+    "slug": ""
+  },
+  "21": {
+    "name": "Soy Milk",
+    "id_category": "2",
+    "description": "Healthy soy milk.",
+    "image": "https://i.imgur.com/L9Ke24p.jpg",
+    "unit_price": 10.01,
+    "stock": 79,
+    "isOffered": true,
+    "slug": ""
+  },
+  "22": {
+    "name": "Almond Milk",
+    "id_category": "2",
+    "description": "Delicious almond milk.",
+    "image": "https://i.imgur.com/t3nK1cM.jpg",
+    "unit_price": 32.87,
+    "stock": 70,
+    "isOffered": true,
+    "slug": ""
+  },
+  "23": {
+    "name": "Coconut Milk",
+    "id_category": "2",
+    "description": "Creamy coconut milk.",
+    "image": "https://i.imgur.com/N8G7l5Z.jpg",
+    "unit_price": 34.45,
+    "stock": 20,
+    "isOffered": false,
+    "slug": ""
+  },
+  "24": {
+    "name": "Yogurt",
+    "id_category": "2",
+    "description": "Vegan yogurt variety.",
+    "image": "https://i.imgur.com/D1CWv5g.jpg",
+    "unit_price": 16.56,
+    "stock": 23,
+    "isOffered": true,
+    "slug": ""
+  },
+  "25": {
+    "name": "Dulce de Leche",
+    "id_category": "2",
+    "description": "Sweet dulce de leche.",
+    "image": "https://i.imgur.com/1eVCzHH.jpg",
+    "unit_price": 21.08,
+    "stock": 22,
+    "isOffered": false,
+    "slug": ""
+  },
+  "26": {
+    "name": "Eggs",
+    "id_category": "2",
+    "description": "Organic and fresh eggs.",
+    "image": "https://i.imgur.com/ZgBqZtG.jpg",
+    "unit_price": 24.51,
+    "stock": 99,
+    "isOffered": true,
+    "slug": ""
+  },
+  "27": {
+    "name": "Vegan Pudding",
+    "id_category": "3",
+    "description": "Delicious vegan pudding.",
+    "image": "https://i.imgur.com/zBtk2Xg.jpg",
+    "unit_price": 11.27,
+    "stock": 82,
+    "isOffered": true,
+    "slug": ""
+  },
+  "28": {
+    "name": "Seitan Roast",
+    "id_category": "3",
+    "description": "Satisfying seitan roast.",
+    "image": "https://i.imgur.com/qPjV8OT.jpg",
+    "unit_price": 21.08,
+    "stock": 22,
+    "isOffered": false,
+    "slug": ""
+  },
+  "29": {
+    "name": "Vegan Cheese",
+    "id_category": "3",
+    "description": "Creamy vegan cheese.",
+    "image": "https://i.imgur.com/ft19bX2.jpg",
+    "unit_price": 21.38,
+    "stock": 11,
+    "isOffered": false,
+    "slug": ""
+  },
+  "30": {
+    "name": "Vegan Salami",
+    "id_category": "3",
+    "description": "Tasty vegan salami.",
+    "image": "https://i.imgur.com/7u6UyCF.jpg",
+    "unit_price": 37.64,
+    "stock": 41,
+    "isOffered": false,
+    "slug": ""
+  },
+  "31": {
+    "name": "Whole Grain Pasta",
+    "id_category": "3",
+    "description": "Nutritious whole grain pasta.",
+    "image": "https://i.imgur.com/7fH5Ux3.jpg",
+    "unit_price": 44.74,
+    "stock": 61,
+    "isOffered": false,
+    "slug": ""
+  },
+  "32": {
+    "name": "Rustic Potato Chips",
+    "id_category": "3",
+    "description": "Crispy rustic potato chips.",
+    "image": "https://i.imgur.com/DZV0mIw.jpg",
+    "unit_price": 5.98,
+    "stock": 43,
+    "isOffered": false,
+    "slug": ""
+  },
+  "33": {
+    "name": "Yerba Mate",
+    "id_category": "4",
+    "description": "Traditional yerba mate.",
+    "image": "https://i.imgur.com/GW77gOh.jpg",
+    "unit_price": 21.54,
+    "stock": 63,
+    "isOffered": true,
+    "slug": ""
+  },
+  "34": {
+    "name": "Tea",
+    "id_category": "4",
+    "description": "Refreshing tea leaves.",
+    "image": "https://i.imgur.com/8oR4qEN.jpg",
+    "unit_price": 20.01,
+    "stock": 23,
+    "isOffered": true,
+    "slug": ""
+  },
+  "35": {
+    "name": "Coffee",
+    "id_category": "4",
+    "description": "Rich and aromatic coffee.",
+    "image": "https://i.imgur.com/LBdGZbY.jpg",
+    "unit_price": 44.1,
+    "stock": 53,
+    "isOffered": true,
+    "slug": ""
+  }
+}

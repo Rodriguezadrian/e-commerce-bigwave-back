@@ -14,19 +14,16 @@ class Product extends Model {
           allowNull: false,
           unique: true,
         },
-        quantity: {
-          type: DataTypes.INTEGER,
-          allowNull: false,
+        description: {
+          type: DataTypes.STRING,
+          allowNull: true,
         },
         price: {
           type: DataTypes.FLOAT,
           allowNull: false,
+          defaultValue: 0,
         },
         image: {
-          type: DataTypes.STRING,
-          allowNull: true,
-        },
-        description: {
           type: DataTypes.STRING,
           allowNull: true,
         },
@@ -36,12 +33,31 @@ class Product extends Model {
         slug: {
           type: DataTypes.STRING,
           allowNull: false,
+          //   defaultValue: "",
           unique: true,
         },
       },
       {
         sequelize,
         modelName: "Product",
+        // hooks: {
+        //   beforeValidate: (product) => {
+        //     if (product.name) {
+        //       product.slug = slugify(product.name, {
+        //         lower: true,
+        //         strict: true,
+        //       });
+        //     }
+        //   },
+        //   beforeUpdate: (product) => {
+        //     if (product.changed("name")) {
+        //       product.slug = slugify(product.name, {
+        //         lower: true,
+        //         strict: true,
+        //       });
+        //     }
+        //   },
+        // },
       }
     );
     return Product;
