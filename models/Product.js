@@ -1,4 +1,5 @@
 const { Model, DataTypes } = require("sequelize");
+const slugify = require("slugify");
 
 class Product extends Model {
   static initModel(sequelize) {
@@ -32,7 +33,7 @@ class Product extends Model {
         // },
         slug: {
           type: DataTypes.STRING,
-          allowNull: false,
+          //   allowNull: false,
           //   defaultValue: "",
           unique: true,
         },
@@ -40,24 +41,27 @@ class Product extends Model {
       {
         sequelize,
         modelName: "Product",
-        // hooks: {
-        //   beforeValidate: (product) => {
-        //     if (product.name) {
-        //       product.slug = slugify(product.name, {
-        //         lower: true,
-        //         strict: true,
-        //       });
-        //     }
-        //   },
-        //   beforeUpdate: (product) => {
-        //     if (product.changed("name")) {
-        //       product.slug = slugify(product.name, {
-        //         lower: true,
-        //         strict: true,
-        //       });
-        //     }
-        //   },
-        // },
+        hooks: {
+          beforeBulkCreate: (products) => {
+            for (const product of products) {
+              console.log(product.name);
+              if (product.name) {
+                product.slug = slugify(product.name, {
+                  lower: true,
+                  strict: true,
+                });
+              }
+            }
+          },
+          //   beforeUpdate: (product) => {
+          //     if (product.changed("name")) {
+          //       product.slug = slugify(product.name, {
+          //         lower: true,
+          //         strict: true,
+          //       });
+          //     }
+          //   },
+        },
       }
     );
     return Product;

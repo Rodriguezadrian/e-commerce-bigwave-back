@@ -9,6 +9,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use(routes);
 
-app.listen(3000, () => {
+app.listen(process.env.APP_PORT, () => {
   console.log("Server is running on port 3000");
 });

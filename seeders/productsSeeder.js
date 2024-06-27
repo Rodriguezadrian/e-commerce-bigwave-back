@@ -1,6 +1,5 @@
 const { Product } = require("../models");
 const productsData = require("./productsDb.json");
-const slugify = require("slugify");
 
 async function productsSeeder() {
   try {
@@ -11,14 +10,10 @@ async function productsSeeder() {
         description: productsData[i].description,
         price: productsData[i].unit_price,
         image: productsData[i].image,
-        slug: slugify(productsData[i].name, {
-          lower: true,
-          strict: true,
-        }),
       });
     }
 
-    await Product.bulkCreate(products, { individualHooks: true });
+    await Product.bulkCreate(products);
     console.log("Products seeded successfully");
   } catch (error) {
     console.error("Error seeding products:", error);
