@@ -1,44 +1,51 @@
 const { Model, DataTypes } = require("sequelize");
 
-class User extends Model {
+class Product extends Model {
   static initModel(sequelize) {
-    User.init(
+    Product.init(
       {
         id: {
           type: DataTypes.INTEGER,
           primaryKey: true,
           autoIncrement: true,
         },
-        email: {
+        name: {
           type: DataTypes.STRING,
+          allowNull: false,
           unique: true,
+        },
+        quantity: {
+          type: DataTypes.INTEGER,
           allowNull: false,
         },
-        password: {
-          type: DataTypes.STRING,
+        price: {
+          type: DataTypes.FLOAT,
           allowNull: false,
         },
-        firstname: {
-          type: DataTypes.STRING,
-          allowNull: false,
-        },
-
-        lastname: {
-          type: DataTypes.STRING,
-          allowNull: false,
-        },
-        avatar: {
+        image: {
           type: DataTypes.STRING,
           allowNull: true,
+        },
+        description: {
+          type: DataTypes.STRING,
+          allowNull: true,
+        },
+        // nutritionalFacts: {
+        //   type: DataTypes.JSON,
+        // },
+        slug: {
+          type: DataTypes.STRING,
+          allowNull: false,
+          unique: true,
         },
       },
       {
         sequelize,
-        modelName: "User",
+        modelName: "Product",
       }
     );
-    return User;
+    return Product;
   }
 }
 
-module.exports = User;
+module.exports = Product;
