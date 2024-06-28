@@ -22,7 +22,7 @@ Category.initModel(sequelize);
 
 User.hasMany(Order);
 Order.belongsTo(User);
-Category.hasMany(Product);
+Category.hasMany(Product, { onDelete: "RESTRICT" });
 Product.belongsTo(Category);
 
 module.exports = {

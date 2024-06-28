@@ -1,5 +1,5 @@
 const { Category } = require("../models");
-const categoriesData = require("./categoriesDb.js");
+const categoriesData = require("../data/categoriesData.js");
 
 async function categoriesSeeder() {
   try {

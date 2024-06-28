@@ -1,5 +1,5 @@
 const { Product } = require("../models");
-const productsData = require("./productsDb");
+const productsData = require("../data/productsData");
 
 async function productsSeeder() {
   try {

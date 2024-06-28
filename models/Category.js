@@ -52,14 +52,14 @@ class Category extends Model {
               });
             }
           },
-          //   beforeUpdate: (category) => {
-          //     if (category.changed("name")) {
-          //       category.slug = slugify(category.name, {
-          //         lower: true,
-          //         strict: true,
-          //       });
-          //     }
-          //   },
+          beforeUpdate: (category) => {
+            if (category.changed("name")) {
+              category.slug = slugify(category.name, {
+                lower: true,
+                strict: true,
+              });
+            }
+          },
         },
       }
     );
