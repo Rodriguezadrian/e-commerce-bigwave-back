@@ -22,7 +22,7 @@ Category.initModel(sequelize);
 
 User.hasMany(Order);
 Order.belongsTo(User);
-Category.hasMany(Product, { onDelete: "RESTRICT" });
+Category.hasMany(Product, { foreignKey: "CategoryId", onDelete: "RESTRICT" });
 Product.belongsTo(Category);
 
 module.exports = {

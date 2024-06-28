@@ -30,7 +30,6 @@ class Category extends Model {
       },
       {
         sequelize,
-        paranoid: true,
         modelName: "Category",
         hooks: {
           beforeBulkCreate: (categories) => {

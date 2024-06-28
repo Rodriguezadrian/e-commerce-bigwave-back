@@ -55,8 +55,10 @@ const categoryController = {
   },
   destroy: async (req, res) => {
     try {
+      console.log("toy en delete de category");
       const { id } = req.params;
       const category = await Category.destroy({ where: { id } });
+      console.log("category", category);
       res.json({ msg: "Category deleted", category });
     } catch (err) {
       console.error(err);
