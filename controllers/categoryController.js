@@ -28,8 +28,11 @@ const categoryController = {
 
   show: async (req, res) => {
     try {
-      const { id } = req.params;
-      const category = await Product.findAll({ where: { CategoryId: id } });
+      const { slug } = req.params;
+      const categoryId = await Category.findOne({ where: { slug: slug } });
+      const category = await Product.findAll({
+        where: { CategoryId: categoryId.dataValues.id },
+      });
       res.json(category);
     } catch (err) {
       console.error(err);
