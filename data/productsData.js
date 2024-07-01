@@ -3,7 +3,8 @@ module.exports = [
     name: "Granola",
     description:
       "Enjoy a delicious and healthy mix of granola, made with a variety of nuts, seeds, and oats, sweetened with natural honey. Perfect for an energetic breakfast or a nutritious snack.",
-    image: "https://img.freepik.com/foto-gratis/muesli_1368-8926.jpg?semt=sph",
+    image:
+      "https://img.freepik.com/foto-gratis/muesli-granola-frasco-transparente-cerca_176420-7004.jpg?uid=R154465626&semt=sph",
     price: 24.11,
     CategoryId: 1,
   },
@@ -21,7 +22,7 @@ module.exports = [
     description:
       "Raw and wholesome almonds, perfect for a healthy snack, adding to your baking recipes, or even making your own almond milk at home. They are rich in vitamins and minerals.",
     image:
-      "https://img.freepik.com/foto-gratis/almendras_1339-237.jpg?semt=sph",
+      "https://img.freepik.com/foto-gratis/almendras-tostadas-tazon-blanco_53876-42473.jpg?uid=R154465626&semt=sph",
     price: 28.58,
     CategoryId: 3,
   },
@@ -56,7 +57,8 @@ module.exports = [
     name: "Oats",
     description:
       "Healthy whole oats, perfect for making hearty oatmeal, overnight oats, or adding to your baking recipes. They are rich in fiber and provide long-lasting energy.",
-    image: "https://img.freepik.com/foto-gratis/avena_1368-5509.jpg?semt=sph",
+    image:
+      "https://img.freepik.com/foto-gratis/avena_1368-5511.jpg?uid=R154465626&semt=sph",
     price: 37.95,
     CategoryId: 1,
   },
@@ -92,7 +94,7 @@ module.exports = [
     description:
       "Protein-rich organic quinoa, perfect as a side dish or a base for salads. It is a versatile and nutritious grain that can be enjoyed in many different ways.",
     image:
-      "https://img.freepik.com/foto-gratis/quinoa-real_1368-9186.jpg?semt=sph",
+      "https://img.freepik.com/foto-gratis/vista-superior-quinua-cuchara-madera_140725-9086.jpg?uid=R154465626&semt=sph",
     price: 27.21,
     CategoryId: 5,
   },
@@ -119,7 +121,7 @@ module.exports = [
     description:
       "Aromatic ground cinnamon, perfect for baking, cooking, or adding a touch of spice to your drinks. It has a warm, sweet flavor that enhances any dish.",
     image:
-      "https://img.freepik.com/foto-gratis/canela-sobre-mesa_144627-22161.jpg?semt=sph",
+      "https://img.freepik.com/foto-gratis/vista-lateral-palitos-canela-cubitos-azucar-capullos-rosa-te-esparcidos-sobre-fondo-negro_141793-7756.jpg?uid=R154465626&semt=sph",
     price: 37.82,
     CategoryId: 2,
   },
@@ -127,7 +129,8 @@ module.exports = [
     name: "Vanilla",
     description:
       "Flavorful vanilla extract, ideal for baking and cooking. It adds a rich and sweet flavor to your dishes, making it a must-have in any kitchen.",
-    image: "https://img.freepik.com/psd-gratis/vainilla-aislada-sobre-fondo-transparente_191095-34680.jpg?semt=sph",
+    image:
+      "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/09/vanilla-1296x728-header.jpg?w=1155&h=1528",
     price: 22.43,
     CategoryId: 7,
   },
@@ -145,7 +148,7 @@ module.exports = [
     description:
       "Nutrient-dense spirulina powder, great for adding to smoothies, juices, or even baking. It is packed with protein, vitamins, and minerals.",
     image:
-      "https://img.freepik.com/vector-gratis/vector-plantas-naturales-subacuaticas-oceano-algas-marinas_529539-270.jpg?semt=sph",
+      "https://media.post.rvohealth.io/wp-content/uploads/2020/09/spirulina-732x549-thumbnail-1-732x549.jpg",
     price: 17.43,
     CategoryId: 6,
   },
@@ -227,7 +230,7 @@ module.exports = [
     description:
       "Organic and fresh eggs, perfect for a nutritious breakfast or as an ingredient in your favorite recipes. These high-quality eggs come from free-range hens.",
     image:
-      "https://img.freepik.com/foto-gratis/tres-huevos-crudos-organicos-frescos-aislados-superficie-blanca_114579-43677.jpg?semt=sph",
+      "https://img.freepik.com/foto-gratis/huevos-primer-plano-sobre-tela-gris_23-2148302885.jpg?uid=R154465626&semt=sph",
     price: 24.51,
     CategoryId: 1,
   },
@@ -235,7 +238,8 @@ module.exports = [
     name: "Vegan Pudding",
     description:
       "Delicious vegan pudding made with plant-based ingredients. This creamy and smooth dessert is perfect for those looking for a dairy-free treat.",
-    image: "https://i.imgur.com/zBtk2Xg.jpg",
+    image:
+      "https://img.freepik.com/foto-gratis/jarra-yogur_144627-527.jpg?uid=R154465626&semt=ais_user",
     price: 11.27,
     CategoryId: 1,
   },
