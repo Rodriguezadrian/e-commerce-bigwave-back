@@ -23,6 +23,10 @@ class Category extends Model {
           type: DataTypes.STRING,
           allowNull: true,
         },
+        thumbnail: {
+          type: DataTypes.STRING,
+          allowNull: true,
+        },
         slug: {
           type: DataTypes.STRING,
           unique: true,
