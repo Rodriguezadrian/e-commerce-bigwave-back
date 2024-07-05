@@ -37,8 +37,8 @@ const ProductController = {
         include: [{ model: Category }],
       });
       res.json(product);
-    } catch (err) {
-      console.error(err);
+    } catch (error) {
+      console.error(error);
       res
         .status(500)
         .json({ message: "There was a problem trying to get the product" });
