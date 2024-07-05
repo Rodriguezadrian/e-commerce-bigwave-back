@@ -3,6 +3,7 @@ const User = require("./User");
 const Product = require("./Product");
 const Order = require("./Order");
 const Category = require("./Category");
+const Admin = require("./Admin");
 
 const sequelizeOptions = {
   host: process.env.DB_HOST,
@@ -23,6 +24,7 @@ const sequelize = new Sequelize(
 );
 
 User.initModel(sequelize);
+Admin.initModel(sequelize);
 Product.initModel(sequelize);
 Order.initModel(sequelize);
 Category.initModel(sequelize);
@@ -35,6 +37,7 @@ Product.belongsTo(Category);
 module.exports = {
   sequelize,
   User,
+  Admin,
   Product,
   Order,
   Category,
