@@ -1,20 +1,72 @@
 const { Order } = require("../models");
 
 const OrderController = {
-  index: (req, res) => {
-    res.send("Order Index");
+  index: async (req, res) => {
+    try {
+      const order = await Order.findAll();
+      res.json(order);
+    } catch (err) {
+      console.error(err);
+      res
+        .status(500)
+        .json({ message: "There was a problem trying to get the orders" });
+    }
   },
-  store: (req, res) => {
-    res.send("Order Store");
+  store: async (req, res) => {
+    const { status, address, products, totalAmount } = req.body;
+    try {
+      const newOrder = await Order.create({
+        status,
+        address,
+        products,
+        totalAmount,
+      });
+      res.json(newOrder);
+    } catch (err) {
+      console.error(err);
+      res
+        .status(500)
+        .json({ message: "There was a problem trying to create the order" });
+    }
   },
-  show: (req, res) => {
-    res.send("Order Show");
+
+  show: async (req, res) => {
+    try {
+      const { id } = req.params;
+      const order = await Order.findOne({
+        where: { id },
+      });
+      res.json(order);
+    } catch (error) {
+      console.error(error);
+      res
+        .status(500)
+        .json({ message: "There was a problem trying to get the order" });
+    }
   },
-  update: (req, res) => {
-    res.send("Order Update");
+  update: async (req, res) => {
+    try {
+      const { id } = req.params;
+      const order = await Order.update(req.body, { where: { id } });
+      res.json(order);
+    } catch (err) {
+      console.error(err);
+      res
+        .status(500)
+        .json({ message: "There was a problem trying to update the order" });
+    }
   },
-  destroy: (req, res) => {
-    res.send("Order Destroy");
+  destroy: async (req, res) => {
+    try {
+      const { id } = req.params;
+      const order = await Order.destroy({ where: { id } });
+      res.json({ msg: "Order deleted" });
+    } catch (err) {
+      console.error(err);
+      res
+        .status(500)
+        .json({ message: "There was a problem trying to delete the order" });
+    }
   },
 };
 module.exports = OrderController;
