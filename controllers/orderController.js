@@ -47,7 +47,8 @@ const OrderController = {
   update: async (req, res) => {
     try {
       const { id } = req.params;
-      const order = await Order.update(req.body, { where: { id } });
+      await Order.update(req.body, { where: { id } });
+      const order = await Order.findByPk(id);
       res.json(order);
     } catch (err) {
       console.error(err);

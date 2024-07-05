@@ -47,7 +47,8 @@ const ProductController = {
   update: async (req, res) => {
     try {
       const { id } = req.params;
-      const product = await Product.update(req.body, { where: { id } });
+      await Product.update(req.body, { where: { id } });
+      const product = await Product.findByPk(id);
       res.json(product);
     } catch (err) {
       console.error(err);
