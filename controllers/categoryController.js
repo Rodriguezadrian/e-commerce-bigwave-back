@@ -33,7 +33,7 @@ const categoryController = {
       const category = await Product.findAll({
         where: { CategoryId: categoryId.dataValues.id },
       });
-      res.json(category);
+      res.json({ category, categoryId });
     } catch (err) {
       console.error(err);
       res
