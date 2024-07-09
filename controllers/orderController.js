@@ -1,4 +1,6 @@
 const { Order } = require("../models");
+const { User } = require("../models");
+const { Product } = require("../models");
 
 const OrderController = {
   index: async (req, res) => {
@@ -13,13 +15,15 @@ const OrderController = {
     }
   },
   store: async (req, res) => {
-    const { status, address, products, totalAmount } = req.body;
+    const { status, address, products, totalAmount, userId } = req.body;
+    const id = req.user;
     try {
       const newOrder = await Order.create({
         status,
         address,
-        products,
+        products: JSON.stringify(products),
         totalAmount,
+        UserId: userId,
       });
       res.json(newOrder);
     } catch (err) {
