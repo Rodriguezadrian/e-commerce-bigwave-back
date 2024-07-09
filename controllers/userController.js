@@ -1,4 +1,4 @@
-const { User } = require("../models");
+const { User, Order } = require("../models");
 // const formidable = require("formidable");
 const bcrypt = require("bcrypt");
 
@@ -37,6 +37,7 @@ const userController = {
       const user = await User.findOne({
         where: { email: req.auth.email },
         attributes: { exclude: ["password"] },
+        include: [{ model: Order, required: true }],
       });
       res.json(user);
     } catch (err) {
