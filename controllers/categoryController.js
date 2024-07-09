@@ -29,11 +29,11 @@ const categoryController = {
   show: async (req, res) => {
     try {
       const { slug } = req.params;
-      const categoryId = await Category.findOne({ where: { slug: slug } });
-      const category = await Product.findAll({
-        where: { CategoryId: categoryId.dataValues.id },
+      const category = await Category.findOne({
+        where: { slug: slug },
+        include: [{ model: Product }],
       });
-      res.json({ category, categoryId });
+      res.json(category);
     } catch (err) {
       console.error(err);
       res
