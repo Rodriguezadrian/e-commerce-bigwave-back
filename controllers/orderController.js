@@ -15,15 +15,21 @@ const OrderController = {
     }
   },
   store: async (req, res) => {
-    const { status, address, products, totalAmount, userId } = req.body;
-    const id = req.user;
+    const { status, address, products, totalAmount } = req.body;
+
     try {
       const newOrder = await Order.create({
         status,
         address,
-        products: JSON.stringify(products),
+        products: products.map((product) => ({
+          name: product.name,
+          price: product.price,
+          categoryId: product.categoryId,
+          id: product.id,
+          quantity: product.quantity,
+        })),
         totalAmount,
-        UserId: userId,
+        UserId: req.auth.sub,
       });
       res.json(newOrder);
     } catch (err) {
