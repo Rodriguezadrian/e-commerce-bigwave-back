@@ -15,7 +15,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/sabrosos-anacardos-como-fondo_1150-45355.jpg?semt=ais_user",
     price: 32.12,
-    CategoryId: 2,
+    CategoryId: 1,
   },
   {
     name: "Almonds",
@@ -24,7 +24,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/almendras-tostadas-tazon-blanco_53876-42473.jpg?uid=R154465626&semt=sph",
     price: 28.58,
-    CategoryId: 3,
+    CategoryId: 1,
   },
   {
     name: "Walnuts",
@@ -33,7 +33,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/vista-superior-nueces-tazon-rustico_141793-6324.jpg?semt=sph",
     price: 17.18,
-    CategoryId: 4,
+    CategoryId: 1,
   },
   {
     name: "Peanuts",
@@ -42,7 +42,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/cacahuetes-fondo-madera_1203-3669.jpg?semt=sph",
     price: 20.2,
-    CategoryId: 5,
+    CategoryId: 1,
   },
   {
     name: "Corn Flakes",
@@ -51,7 +51,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/tazon-cereales-leche-sobre-fondo-oscuro_1150-45584.jpg?semt=ais_user",
     price: 46.92,
-    CategoryId: 6,
+    CategoryId: 1,
   },
   {
     name: "Oats",
@@ -69,7 +69,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/pan-redondo-trigos-mesa-azul_114579-14469.jpg?semt=ais_user",
     price: 33.8,
-    CategoryId: 2,
+    CategoryId: 1,
   },
   {
     name: "Sesame Seeds",
@@ -78,7 +78,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/tazon-rustico-cuchara-semillas_23-2148536697.jpg?semt=ais_user",
     price: 12.72,
-    CategoryId: 3,
+    CategoryId: 1,
   },
   {
     name: "Chia Seeds",
@@ -87,7 +87,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/cuchara-tazon-lleno-semillas_23-2148536617.jpg?semt=ais_user",
     price: 34.2,
-    CategoryId: 4,
+    CategoryId: 1,
   },
   {
     name: "Quinoa",
@@ -96,7 +96,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/vista-superior-quinua-cuchara-madera_140725-9086.jpg?uid=R154465626&semt=sph",
     price: 27.21,
-    CategoryId: 5,
+    CategoryId: 1,
   },
   {
     name: "Sunflower Seeds",
@@ -105,7 +105,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/sirva-sostener-semillas-girasol-negras-fondo-negro-vision-superior_176474-5203.jpg?semt=ais_user",
     price: 22.72,
-    CategoryId: 6,
+    CategoryId: 1,
   },
   {
     name: "Honey",
@@ -114,7 +114,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/alto-angulo-cucharon-miel-madera-junto-al-tarro-miel_23-2149442354.jpg?semt=sph",
     price: 32.57,
-    CategoryId: 1,
+    CategoryId: 2,
   },
   {
     name: "Cinnamon",
@@ -123,7 +123,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/vista-lateral-palitos-canela-cubitos-azucar-capullos-rosa-te-esparcidos-sobre-fondo-negro_141793-7756.jpg?uid=R154465626&semt=sph",
     price: 37.82,
-    CategoryId: 2,
+    CategoryId: 6,
   },
   {
     name: "Vanilla",
@@ -132,7 +132,7 @@ module.exports = [
     image:
       "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/09/vanilla-1296x728-header.jpg?w=1155&h=1528",
     price: 22.43,
-    CategoryId: 7,
+    CategoryId: 6,
   },
   {
     name: "Matcha",
@@ -141,7 +141,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/concepto-polvo-alto-angulo-condimento_23-2148578427.jpg?semt=sph",
     price: 18.19,
-    CategoryId: 5,
+    CategoryId: 4,
   },
   {
     name: "Spirulina",
@@ -150,7 +150,7 @@ module.exports = [
     image:
       "https://media.post.rvohealth.io/wp-content/uploads/2020/09/spirulina-732x549-thumbnail-1-732x549.jpg",
     price: 17.43,
-    CategoryId: 6,
+    CategoryId: 4,
   },
   {
     name: "Sweetener",
@@ -159,7 +159,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/fondo-terrones-azucar_93675-131274.jpg?semt=ais_user",
     price: 43.97,
-    CategoryId: 3,
+    CategoryId: 2,
   },
 
   {
@@ -169,7 +169,7 @@ module.exports = [
     image:
       "https://as1.ftcdn.net/v2/jpg/06/38/14/80/1000_F_638148037_ntYYqORJrMg6jhGA0jSxl9Tk49IUx0dq.jpg",
     price: 42.12,
-    CategoryId: 1,
+    CategoryId: 2,
   },
   {
     name: "Peanut Butter",
@@ -187,7 +187,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/arreglo-botellas-leche-almendras-alto-angulo_23-2149415055.jpg?semt=ais_user",
     price: 10.01,
-    CategoryId: 1,
+    CategoryId: 3,
   },
   {
     name: "Almond Milk",
@@ -196,7 +196,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/vaso-leche-almendras_23-2148211487.jpg?semt=ais_user",
     price: 32.87,
-    CategoryId: 1,
+    CategoryId: 3,
   },
   {
     name: "Coconut Milk",
@@ -205,7 +205,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/botella-leche-coco-sobre-fondo-blanco-madera_1150-28235.jpg?semt=ais_user",
     price: 34.45,
-    CategoryId: 1,
+    CategoryId: 3,
   },
   {
     name: "Yogurt",
@@ -214,7 +214,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/satisfaccion-persona-blanco-vidrio-relajacion_1301-3105.jpg?semt=sph",
     price: 16.56,
-    CategoryId: 1,
+    CategoryId: 3,
   },
   {
     name: "Dulce de Leche",
@@ -223,7 +223,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/delicioso-concepto-tarro-dulche-leche_23-2148751772.jpg?semt=ais_user",
     price: 21.08,
-    CategoryId: 1,
+    CategoryId: 2,
   },
   {
     name: "Eggs",
@@ -232,7 +232,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/huevos-primer-plano-sobre-tela-gris_23-2148302885.jpg?uid=R154465626&semt=sph",
     price: 24.51,
-    CategoryId: 1,
+    CategoryId: 3,
   },
   {
     name: "Vegan Pudding",
@@ -241,7 +241,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/jarra-yogur_144627-527.jpg?uid=R154465626&semt=ais_user",
     price: 11.27,
-    CategoryId: 1,
+    CategoryId: 3,
   },
   {
     name: "Seitan Roast",
@@ -250,7 +250,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/arreglo-alto-angulo-deliciosa-carne-tenedor_23-2148325603.jpg?semt=ais_user",
     price: 21.08,
-    CategoryId: 1,
+    CategoryId: 3,
   },
   {
     name: "Vegan Cheese",
@@ -259,7 +259,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/surtido-sabrosos-turrones-pano-verde_23-2149617396.jpg?semt=ais_user",
     price: 21.38,
-    CategoryId: 1,
+    CategoryId: 3,
   },
   {
     name: "Vegan Salami",
@@ -268,7 +268,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/deliciosos-bocadillos-tablero-madera_144627-43485.jpg?semt=ais_user",
     price: 37.64,
-    CategoryId: 1,
+    CategoryId: 3,
   },
   {
     name: "Whole Grain Pasta",
@@ -286,7 +286,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/papas-fritas-mesa_144627-9101.jpg?semt=ais_user",
     price: 5.98,
-    CategoryId: 1,
+    CategoryId: 7,
   },
   {
     name: "Yerba Mate",
@@ -295,7 +295,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/surtido-plano-plantas-secas_23-2148799544.jpg?semt=sph",
     price: 21.54,
-    CategoryId: 1,
+    CategoryId: 5,
   },
   {
     name: "Tea",
@@ -304,7 +304,7 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/vista-frontal-concepto-herbal-te-espacio-copia_23-2148555200.jpg?semt=sph",
     price: 20.01,
-    CategoryId: 1,
+    CategoryId: 5,
   },
   {
     name: "Coffee",
@@ -313,6 +313,6 @@ module.exports = [
     image:
       "https://img.freepik.com/foto-gratis/vista-herramienta-utilizada-prensar-hacer-cafe_23-2149878080.jpg?semt=sph",
     price: 44.1,
-    CategoryId: 1,
+    CategoryId: 5,
   },
 ];
