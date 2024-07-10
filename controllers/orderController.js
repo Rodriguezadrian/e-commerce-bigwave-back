@@ -5,7 +5,7 @@ const { Product } = require("../models");
 const OrderController = {
   index: async (req, res) => {
     try {
-      const order = await Order.findAll();
+      const order = await Order.findAll({ include: [{ model: User }] });
       res.json(order);
     } catch (err) {
       console.error(err);
