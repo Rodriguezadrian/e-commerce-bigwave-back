@@ -37,7 +37,7 @@ const userController = {
       const user = await User.findOne({
         where: { email: req.auth.email },
         attributes: { exclude: ["password"] },
-        include: [{ model: Order, required: true }],
+        include: [{ model: Order }],
       });
       res.json(user);
     } catch (err) {
