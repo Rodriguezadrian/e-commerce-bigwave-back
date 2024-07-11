@@ -27,6 +27,7 @@ const OrderController = {
           categoryId: product.categoryId,
           id: product.id,
           quantity: product.quantity,
+          image: product.image,
         })),
         totalAmount,
         UserId: req.auth.sub,
