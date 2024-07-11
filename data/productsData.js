@@ -4,7 +4,7 @@ module.exports = [
     description:
       "Enjoy a delicious and healthy mix of granola, made with a variety of nuts, seeds, and oats, sweetened with natural honey. Perfect for an energetic breakfast or a nutritious snack.",
     image:
-      "https://img.freepik.com/foto-gratis/muesli-granola-frasco-transparente-cerca_176420-7004.jpg?uid=R154465626&semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/granola_5_semillas.jpg",
     price: 24.11,
     CategoryId: 1,
   },
@@ -13,7 +13,7 @@ module.exports = [
     description:
       "Crunchy and nutritious cashew nuts, perfect for a healthy snack or as a versatile ingredient in your favorite recipes. Their mild flavor and creamy texture make them irresistible.",
     image:
-      "https://img.freepik.com/foto-gratis/sabrosos-anacardos-como-fondo_1150-45355.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/castanas_de_caju_crudad.jpg",
     price: 32.12,
     CategoryId: 1,
   },
@@ -22,7 +22,7 @@ module.exports = [
     description:
       "Raw and wholesome almonds, perfect for a healthy snack, adding to your baking recipes, or even making your own almond milk at home. They are rich in vitamins and minerals.",
     image:
-      "https://img.freepik.com/foto-gratis/almendras-tostadas-tazon-blanco_53876-42473.jpg?uid=R154465626&semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/Almendras.jpg",
     price: 28.58,
     CategoryId: 1,
   },
@@ -31,7 +31,7 @@ module.exports = [
     description:
       "Rich in omega-3 fatty acids, these walnuts are not only tasty but also incredibly nutritious. Perfect for baking, snacking, or adding to salads for an extra crunch.",
     image:
-      "https://img.freepik.com/foto-gratis/vista-superior-nueces-tazon-rustico_141793-6324.jpg?semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/nueces_peladas.jpg",
     price: 17.18,
     CategoryId: 1,
   },
@@ -40,7 +40,7 @@ module.exports = [
     description:
       "Delicious roasted peanuts, perfect for snacking or adding to your favorite dishes. They are rich in protein and provide a satisfying crunch in every bite.",
     image:
-      "https://img.freepik.com/foto-gratis/cacahuetes-fondo-madera_1203-3669.jpg?semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/mani_crudo.jpg",
     price: 20.2,
     CategoryId: 1,
   },
@@ -49,7 +49,7 @@ module.exports = [
     description:
       "Crispy corn flakes, a classic breakfast choice that pairs perfectly with milk or yogurt. Start your day with a bowl of these light and crunchy flakes.",
     image:
-      "https://img.freepik.com/foto-gratis/tazon-cereales-leche-sobre-fondo-oscuro_1150-45584.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/copos_de_maiz.jpg",
     price: 46.92,
     CategoryId: 1,
   },
@@ -58,7 +58,7 @@ module.exports = [
     description:
       "Healthy whole oats, perfect for making hearty oatmeal, overnight oats, or adding to your baking recipes. They are rich in fiber and provide long-lasting energy.",
     image:
-      "https://img.freepik.com/foto-gratis/avena_1368-5511.jpg?uid=R154465626&semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/avena_laminada.jpg",
     price: 37.95,
     CategoryId: 1,
   },
@@ -67,7 +67,7 @@ module.exports = [
     description:
       "Nutritious rye grains, ideal for making homemade bread or adding to salads for a boost of fiber and nutrients. They have a distinct flavor that enhances any dish.",
     image:
-      "https://img.freepik.com/foto-gratis/pan-redondo-trigos-mesa-azul_114579-14469.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/harina_de_centeno.jpg",
     price: 33.8,
     CategoryId: 1,
   },
@@ -76,7 +76,7 @@ module.exports = [
     description:
       "Organic sesame seeds, perfect for adding a nutty flavor to your dishes. They are great for baking, cooking, or even sprinkling on salads and stir-fries.",
     image:
-      "https://img.freepik.com/foto-gratis/tazon-rustico-cuchara-semillas_23-2148536697.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/sesamo_pelado.jpg",
     price: 12.72,
     CategoryId: 1,
   },
@@ -85,7 +85,7 @@ module.exports = [
     description:
       "High-fiber chia seeds, a superfood that can be added to smoothies, yogurt, or used to make chia pudding. They are packed with omega-3 fatty acids and antioxidants.",
     image:
-      "https://img.freepik.com/foto-gratis/cuchara-tazon-lleno-semillas_23-2148536617.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/semillas_de_chia.jpg",
     price: 34.2,
     CategoryId: 1,
   },
@@ -94,7 +94,7 @@ module.exports = [
     description:
       "Protein-rich organic quinoa, perfect as a side dish or a base for salads. It is a versatile and nutritious grain that can be enjoyed in many different ways.",
     image:
-      "https://img.freepik.com/foto-gratis/vista-superior-quinua-cuchara-madera_140725-9086.jpg?uid=R154465626&semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/Quinoa_blanca.jpg",
     price: 27.21,
     CategoryId: 1,
   },
@@ -103,7 +103,7 @@ module.exports = [
     description:
       "Sunflower seeds packed with vitamins and minerals, great for snacking, adding to salads, or baking. They provide a healthy crunch and a boost of nutrients.",
     image:
-      "https://img.freepik.com/foto-gratis/sirva-sostener-semillas-girasol-negras-fondo-negro-vision-superior_176474-5203.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/girasol_tostado.jpg",
     price: 22.72,
     CategoryId: 1,
   },
@@ -112,7 +112,7 @@ module.exports = [
     description:
       "Pure and natural honey, perfect for sweetening your tea, spreading on toast, or adding to recipes. It has a rich flavor and is a great natural sweetener.",
     image:
-      "https://img.freepik.com/foto-gratis/alto-angulo-cucharon-miel-madera-junto-al-tarro-miel_23-2149442354.jpg?semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/downloadedImage.png",
     price: 32.57,
     CategoryId: 2,
   },
@@ -130,7 +130,7 @@ module.exports = [
     description:
       "Flavorful vanilla extract, ideal for baking and cooking. It adds a rich and sweet flavor to your dishes, making it a must-have in any kitchen.",
     image:
-      "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/09/vanilla-1296x728-header.jpg?w=1155&h=1528",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/vainilla.jpg",
     price: 22.43,
     CategoryId: 6,
   },
@@ -139,7 +139,7 @@ module.exports = [
     description:
       "High-quality matcha powder, perfect for making traditional matcha tea or adding to your favorite recipes for a boost of antioxidants and a vibrant green color.",
     image:
-      "https://img.freepik.com/foto-gratis/concepto-polvo-alto-angulo-condimento_23-2148578427.jpg?semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/matcha.png",
     price: 18.19,
     CategoryId: 4,
   },
@@ -148,7 +148,7 @@ module.exports = [
     description:
       "Nutrient-dense spirulina powder, great for adding to smoothies, juices, or even baking. It is packed with protein, vitamins, and minerals.",
     image:
-      "https://media.post.rvohealth.io/wp-content/uploads/2020/09/spirulina-732x549-thumbnail-1-732x549.jpg",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/spirulina.png",
     price: 17.43,
     CategoryId: 4,
   },
@@ -157,7 +157,7 @@ module.exports = [
     description:
       "Natural sweetener alternative, perfect for those looking to reduce their sugar intake without sacrificing sweetness. It can be used in baking, cooking, and beverages.",
     image:
-      "https://img.freepik.com/foto-gratis/fondo-terrones-azucar_93675-131274.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/azucar.png",
     price: 43.97,
     CategoryId: 2,
   },
@@ -176,7 +176,7 @@ module.exports = [
     description:
       "Creamy peanut butter, perfect for spreading on toast, adding to smoothies, or using in baking. It is rich in protein and has a smooth, delicious flavor.",
     image:
-      "https://img.freepik.com/foto-gratis/vista-superior-deliciosa-mantequilla-mani_23-2150408128.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/crema_de_mani.jpg",
     price: 25.51,
     CategoryId: 1,
   },
@@ -185,7 +185,7 @@ module.exports = [
     description:
       "Healthy soy milk, a great dairy alternative that is perfect for drinking, adding to coffee, or using in recipes. It is rich in protein and has a smooth, creamy texture.",
     image:
-      "https://img.freepik.com/foto-gratis/arreglo-botellas-leche-almendras-alto-angulo_23-2149415055.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/leche_de_soja.png",
     price: 10.01,
     CategoryId: 3,
   },
@@ -194,7 +194,7 @@ module.exports = [
     description:
       "Delicious almond milk, a perfect dairy-free alternative for drinking, adding to coffee, or using in recipes. It has a light, nutty flavor and is rich in vitamins.",
     image:
-      "https://img.freepik.com/foto-gratis/vaso-leche-almendras_23-2148211487.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/leche_de_almendras.png",
     price: 32.87,
     CategoryId: 3,
   },
@@ -203,7 +203,7 @@ module.exports = [
     description:
       "Creamy coconut milk, perfect for cooking, baking, or adding to beverages. It has a rich, tropical flavor and is a great dairy-free alternative.",
     image:
-      "https://img.freepik.com/foto-gratis/botella-leche-coco-sobre-fondo-blanco-madera_1150-28235.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/leche_de_coco.png",
     price: 34.45,
     CategoryId: 3,
   },
@@ -212,7 +212,7 @@ module.exports = [
     description:
       "Vegan yogurt variety, perfect for a healthy snack or adding to your breakfast. It is dairy-free and comes in a variety of delicious flavors.",
     image:
-      "https://img.freepik.com/foto-gratis/satisfaccion-persona-blanco-vidrio-relajacion_1301-3105.jpg?semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/yogurt.png",
     price: 16.56,
     CategoryId: 3,
   },
@@ -221,7 +221,7 @@ module.exports = [
     description:
       "Sweet and creamy dulce de leche, perfect for spreading on toast, filling desserts, or enjoying by the spoonful. This traditional treat is a delight for anyone with a sweet tooth.",
     image:
-      "https://img.freepik.com/foto-gratis/delicioso-concepto-tarro-dulche-leche_23-2148751772.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/dulce_de_leche.png",
     price: 21.08,
     CategoryId: 2,
   },
@@ -230,7 +230,7 @@ module.exports = [
     description:
       "Organic and fresh eggs, perfect for a nutritious breakfast or as an ingredient in your favorite recipes. These high-quality eggs come from free-range hens.",
     image:
-      "https://img.freepik.com/foto-gratis/huevos-primer-plano-sobre-tela-gris_23-2148302885.jpg?uid=R154465626&semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/downloadedImage_1.png",
     price: 24.51,
     CategoryId: 3,
   },
@@ -239,7 +239,7 @@ module.exports = [
     description:
       "Delicious vegan pudding made with plant-based ingredients. This creamy and smooth dessert is perfect for those looking for a dairy-free treat.",
     image:
-      "https://img.freepik.com/foto-gratis/jarra-yogur_144627-527.jpg?uid=R154465626&semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/vegan_pudding.png",
     price: 11.27,
     CategoryId: 3,
   },
@@ -248,7 +248,7 @@ module.exports = [
     description:
       "Satisfying seitan roast, perfect for a hearty meal. This plant-based protein alternative is flavorful and versatile, making it a great addition to any vegan or vegetarian diet.",
     image:
-      "https://img.freepik.com/foto-gratis/arreglo-alto-angulo-deliciosa-carne-tenedor_23-2148325603.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/seitan.png",
     price: 21.08,
     CategoryId: 3,
   },
@@ -257,7 +257,7 @@ module.exports = [
     description:
       "Creamy vegan cheese, perfect for those looking for a dairy-free alternative. It melts beautifully and is great for sandwiches, pizzas, or enjoying on its own.",
     image:
-      "https://img.freepik.com/foto-gratis/surtido-sabrosos-turrones-pano-verde_23-2149617396.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/queso_vegano.png",
     price: 21.38,
     CategoryId: 3,
   },
@@ -266,7 +266,7 @@ module.exports = [
     description:
       "Tasty vegan salami, perfect for adding to sandwiches, pizzas, or enjoying as a snack. This plant-based alternative is packed with flavor and has a satisfying texture.",
     image:
-      "https://img.freepik.com/foto-gratis/deliciosos-bocadillos-tablero-madera_144627-43485.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/salami.png",
     price: 37.64,
     CategoryId: 3,
   },
@@ -275,7 +275,7 @@ module.exports = [
     description:
       "Nutritious whole grain pasta, perfect for a healthy and satisfying meal. This pasta is high in fiber and has a deliciously hearty flavor.",
     image:
-      "https://img.freepik.com/foto-gratis/pastas-organicas-recipiente-ceramica-blanca_114579-33638.jpg?semt=ais_user",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/pasta.png",
     price: 44.74,
     CategoryId: 1,
   },
@@ -293,7 +293,7 @@ module.exports = [
     description:
       "Traditional yerba mate, perfect for making a refreshing and energizing beverage. This South American tea is rich in antioxidants and has a distinctive flavor.",
     image:
-      "https://img.freepik.com/foto-gratis/surtido-plano-plantas-secas_23-2148799544.jpg?semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/yerba.png",
     price: 21.54,
     CategoryId: 5,
   },
@@ -302,7 +302,7 @@ module.exports = [
     description:
       "Refreshing tea leaves, perfect for brewing a cup of hot or iced tea. These high-quality leaves provide a rich and aromatic flavor that can be enjoyed any time of day.",
     image:
-      "https://img.freepik.com/foto-gratis/vista-frontal-concepto-herbal-te-espacio-copia_23-2148555200.jpg?semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/te.png",
     price: 20.01,
     CategoryId: 5,
   },
@@ -311,7 +311,7 @@ module.exports = [
     description:
       "Rich and aromatic coffee, perfect for starting your day or enjoying a relaxing break. These high-quality coffee beans provide a bold and flavorful cup of coffee.",
     image:
-      "https://img.freepik.com/foto-gratis/vista-herramienta-utilizada-prensar-hacer-cafe_23-2149878080.jpg?semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/cafe_molido.jpg",
     price: 44.1,
     CategoryId: 5,
   },

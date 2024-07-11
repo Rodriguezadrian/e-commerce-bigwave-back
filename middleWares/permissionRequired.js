@@ -1,5 +1,6 @@
 const checkRole = {
   admin: async (req, res, next) => {
+  
     try {
       if (req.auth.isAdmin) {
         next();
