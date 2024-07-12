@@ -1,13 +1,16 @@
+const { customAlphabet } = require("nanoid");
 const { Model, DataTypes } = require("sequelize");
+
+const nanoid = customAlphabet("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", 8);
 
 class Order extends Model {
   static initModel(sequelize) {
     Order.init(
       {
         id: {
-          type: DataTypes.INTEGER,
+          type: DataTypes.STRING,
           primaryKey: true,
-          autoIncrement: true,
+          defaultValue: () => nanoid(8),
         },
         status: {
           type: DataTypes.ENUM,
