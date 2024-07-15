@@ -87,10 +87,15 @@ const userController = {
         .json({ message: "There was a problem trying to update the user" });
     }
   },
-  destroyMyProfile: (req, res) => {
+  destroyMyProfile: async (req, res) => {
     try {
-      const user = User.destroy({ where: { email: req.auth.email } });
-      res.json({ msg: `user deleted successfully` });
+      const anonymous = 1;
+      const updateOrder = await Order.update(
+        { UserId: anonymous },
+        { where: { UserId: req.auth.sub } }
+      );
+      const user = await User.destroy({ where: { id: req.auth.sub } });
+      res.json({ message: "User profile deleted and orders reassigned" });
     } catch (err) {
       console.error(err);
       res
@@ -98,9 +103,9 @@ const userController = {
         .json({ message: "There was a problem trying to delete the user" });
     }
   },
-  destroyClient: (req, res) => {
+  destroyClient: async (req, res) => {
     try {
-      const user = User.destroy({ where: { email: req.body.email } });
+      const user = await User.destroy({ where: { email: req.body.email } });
       res.json({ msg: `user deleted successfully` });
     } catch (err) {
       console.error(err);
