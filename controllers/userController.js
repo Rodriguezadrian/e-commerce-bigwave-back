@@ -49,8 +49,9 @@ const userController = {
   },
   showClient: async (req, res) => {
     try {
+      const { id } = req.params;
       const user = await User.findOne({
-        where: { email: req.body.email },
+        where: { id: id },
         attributes: { exclude: ["password"] },
       });
       res.json(user);
