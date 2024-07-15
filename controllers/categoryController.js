@@ -17,7 +17,7 @@ const categoryController = {
     try {
       const { name, description, image } = req.body;
       const newCategory = Category.create({ name, description, image });
-      res.json(newCategory);
+      res.json({ msg: `${name} created succesfully` });
     } catch (err) {
       console.error(err);
       res
@@ -58,10 +58,8 @@ const categoryController = {
   },
   destroy: async (req, res) => {
     try {
-      console.log("toy en delete de category");
       const { id } = req.params;
       const category = await Category.destroy({ where: { id } });
-      console.log("category", category);
       res.json({ msg: "Category deleted", category });
     } catch (err) {
       console.error(err);
