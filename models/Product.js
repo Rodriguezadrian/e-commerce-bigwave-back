@@ -28,9 +28,9 @@ class Product extends Model {
           type: DataTypes.STRING,
           allowNull: true,
         },
-        // nutritionalFacts: {
-        //   type: DataTypes.JSON,
-        // },
+        stock: {
+          type: DataTypes.INTEGER,
+        },
         slug: {
           type: DataTypes.STRING,
           //   allowNull: false,
