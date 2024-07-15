@@ -1,4 +1,4 @@
-const { Product, Category, sequelize } = require("../models");
+const { Product, Category, Sequelize } = require("../models");
 
 const ProductController = {
   index: async (req, res) => {
@@ -13,13 +13,14 @@ const ProductController = {
     }
   },
   store: async (req, res) => {
-    const { name, description, price, image } = req.body;
+    const { name, description, price, image, categoryId } = req.body;
     try {
       const newProduct = await Product.create({
         name,
         description,
         price,
         image,
+        categoryId,
       });
       res.json(newProduct);
     } catch (err) {
@@ -34,7 +35,16 @@ const ProductController = {
       const { slug } = req.params;
       const product = await Product.findOne({
         where: { slug },
-        include: [{ model: Category }],
+        include: [
+          {
+            model: Category,
+            include: [
+              {
+                model: Product,
+              },
+            ],
+          },
+        ],
       });
       res.json(product);
     } catch (error) {
@@ -67,21 +77,6 @@ const ProductController = {
       res
         .status(500)
         .json({ message: "There was a problem trying to delete the product" });
-    }
-  },
-  random: async (_, res) => {
-    try {
-      const randomProducts = await Product.findAll({
-        order: sequelize.random(),
-        limit: 3,
-        attributes: ["slug", "name", "price", "image"],
-      });
-      res.json(randomProducts);
-    } catch (err) {
-      console.error(err);
-      res
-        .status(500)
-        .json({ message: "There was a problem trying to get random products" });
     }
   },
 };
