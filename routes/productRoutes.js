@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const productController = require("../controllers/productController");
-const checkRole = require("../middlewares/permissionRequired");
+const checkRole = require("../mw/permissionRequired");
 const { expressjwt: checkJwt } = require("express-jwt");
 
 router.get("/", productController.index);
