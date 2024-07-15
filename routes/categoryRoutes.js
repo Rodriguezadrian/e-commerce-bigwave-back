@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const categoryController = require("../controllers/categoryController");
-const checkRole = require("../mw/permissionRequired");
+const checkRole = require("../middlewares/permissionRequired");
 const { expressjwt: checkJwt } = require("express-jwt");
 
 router.get("/", categoryController.index);

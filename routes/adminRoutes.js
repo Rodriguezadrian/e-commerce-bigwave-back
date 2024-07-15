@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const adminController = require("../controllers/adminController");
 const { expressjwt: checkJwt } = require("express-jwt");
-const checkRole = require("../mw/permissionRequired");
+const checkRole = require("../middlewares/permissionRequired");
 
 router.use(checkJwt({ secret: process.env.SECRET_JWT, algorithms: ["HS256"] })); //checkea el token
 router.use(checkRole.admin); //checkea el rol de admin
