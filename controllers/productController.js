@@ -1,4 +1,4 @@
-const { Product, Category } = require("../models");
+const { Product, Category, sequelize } = require("../models");
 
 const ProductController = {
   index: async (req, res) => {
@@ -69,5 +69,21 @@ const ProductController = {
         .json({ message: "There was a problem trying to delete the product" });
     }
   },
+  random: async (_, res) => {
+    try {
+      const randomProducts = await Product.findAll({
+        order: sequelize.random(),
+        limit: 3,
+        attributes: ["slug", "name", "price", "image"],
+      });
+      res.json(randomProducts);
+    } catch (err) {
+      console.error(err);
+      res
+        .status(500)
+        .json({ message: "There was a problem trying to get random products" });
+    }
+  },
 };
+
 module.exports = ProductController;

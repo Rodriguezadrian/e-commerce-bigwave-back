@@ -5,6 +5,7 @@ const checkRole = require("../middleWares/permissionRequired");
 const { expressjwt: checkJwt } = require("express-jwt");
 
 router.get("/", productController.index);
+router.get("/random", productController.random);
 router.get("/:slug", productController.show);
 router.use(checkJwt({ secret: process.env.SECRET_JWT, algorithms: ["HS256"] })); //checkea el token
 router.post("/", checkRole.admin, productController.store);
