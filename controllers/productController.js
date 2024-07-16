@@ -67,6 +67,27 @@ const ProductController = {
         .json({ message: "There was a problem trying to update the product" });
     }
   },
+
+  updateStock: async (req, res) => {
+    try {
+      const { id } = req.params;
+      const { quantity } = req.body;
+      const product = await Product.findByPk(id);
+      if (product) {
+        product.stock -= quantity;
+        await product.save();
+        res.json({ message: "Stock updated successfully", product });
+      } else {
+        res.status(404).json({ message: "Product not found" });
+      }
+    } catch (err) {
+      console.error(err);
+      res
+        .status(500)
+        .json({ message: "There was a problem trying to update the stock" });
+    }
+  },
+
   destroy: async (req, res) => {
     try {
       const { id } = req.params;
