@@ -4,7 +4,9 @@ const { Product } = require("../models");
 const categoryController = {
   index: async (req, res) => {
     try {
-      const categories = await Category.findAll();
+      const categories = await Category.findAll({
+        order: [["name", "ASC"]],
+      });
       res.json(categories);
     } catch {
       console.error(err);
@@ -32,6 +34,7 @@ const categoryController = {
       const category = await Category.findOne({
         where: { slug: slug },
         include: [{ model: Product }],
+        order: [[{ model: Product }, "name", "ASC"]],
       });
       res.json(category);
     } catch (err) {

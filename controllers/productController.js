@@ -3,7 +3,9 @@ const { Product, Category, Sequelize } = require("../models");
 const ProductController = {
   index: async (req, res) => {
     try {
-      const products = await Product.findAll();
+      const products = await Product.findAll({
+        order: [["name", "ASC"]],
+      });
       res.json(products);
     } catch (err) {
       console.error(err);
