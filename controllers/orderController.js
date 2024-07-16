@@ -16,7 +16,6 @@ const OrderController = {
   },
   store: async (req, res) => {
     const { status, address, products, totalAmount } = req.body;
-
     try {
       const newOrder = await Order.create({
         status,
