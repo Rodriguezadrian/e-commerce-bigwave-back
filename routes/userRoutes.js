@@ -12,10 +12,6 @@ router.delete("/my-profile", userController.destroyMyProfile); // eliminar mi pe
 
 router.get("/", checkRole.admin, userController.index); // mostrar todos los usuarios (admin)
 router.get("/client-profile/:id", checkRole.admin, userController.showClient); // mostrar perfil de un cliente (admin)
-router.delete(
-  "/client-profile/:id",
-  checkRole.admin,
-  userController.destroyClient
-); // eliminar perfil de un cliente (admin)
+router.delete( "/client-profile/:id",checkRole.admin,userController.destroyClient); // eliminar perfil de un cliente (admin)
 
 module.exports = router;

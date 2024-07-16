@@ -15,12 +15,13 @@ const ProductController = {
     }
   },
   store: async (req, res) => {
-    const { name, description, price, image, categoryId } = req.body;
+    const { name, description, price, image, categoryId, stock } = req.body;
     try {
       const newProduct = await Product.create({
         name,
         description,
         price,
+        stock,
         image,
         categoryId,
       });
