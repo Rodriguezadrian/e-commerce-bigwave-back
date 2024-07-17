@@ -31,6 +31,11 @@ class Product extends Model {
         stock: {
           type: DataTypes.INTEGER,
         },
+        netWeight: {
+          type: DataTypes.STRING,
+
+          allowNull: false,
+        },
         slug: {
           type: DataTypes.STRING,
           //   allowNull: false,

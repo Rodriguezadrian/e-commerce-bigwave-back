@@ -7,6 +7,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/granola_5_semillas.jpg",
     price: 24.11,
     stock: 100,
+    netWeight: "250g",
     CategoryId: 1,
   },
   {
@@ -17,6 +18,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/castanas_de_caju_crudad.jpg",
     price: 32.12,
     stock: 100,
+    netWeight: "250g",
     CategoryId: 1,
   },
   {
@@ -27,6 +29,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/Almendras.jpg",
     price: 28.58,
     stock: 100,
+    netWeight: "250g",
     CategoryId: 1,
   },
   {
@@ -37,6 +40,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/nueces_peladas.jpg",
     price: 17.18,
     stock: 100,
+    netWeight: "250g",
     CategoryId: 1,
   },
   {
@@ -47,6 +51,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/mani_crudo.jpg",
     price: 20.2,
     stock: 100,
+    netWeight: "250g",
     CategoryId: 1,
   },
   {
@@ -57,6 +62,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/copos_de_maiz.jpg",
     price: 46.92,
     stock: 100,
+    netWeight: "250g",
     CategoryId: 1,
   },
   {
@@ -67,6 +73,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/avena_laminada.jpg",
     price: 37.95,
     stock: 100,
+    netWeight: "1kg",
     CategoryId: 1,
   },
   {
@@ -77,6 +84,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/harina_de_centeno.jpg",
     price: 33.8,
     stock: 100,
+    netWeight: "1kg",
     CategoryId: 1,
   },
   {
@@ -87,6 +95,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/sesamo_pelado.jpg",
     price: 12.72,
     stock: 100,
+    netWeight: "250g",
     CategoryId: 1,
   },
   {
@@ -97,6 +106,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/semillas_de_chia.jpg",
     price: 34.2,
     stock: 100,
+    netWeight: "250g",
     CategoryId: 1,
   },
   {
@@ -107,6 +117,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/Quinoa_blanca.jpg",
     price: 27.21,
     stock: 100,
+    netWeight: "500g",
     CategoryId: 1,
   },
   {
@@ -117,6 +128,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/girasol_tostado.jpg",
     price: 22.72,
     stock: 100,
+    netWeight: "250g",
     CategoryId: 1,
   },
   {
@@ -127,6 +139,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/downloadedImage.png",
     price: 32.57,
     stock: 100,
+    netWeight: "500g",
     CategoryId: 2,
   },
   {
@@ -137,6 +150,7 @@ module.exports = [
       "https://img.freepik.com/foto-gratis/vista-lateral-palitos-canela-cubitos-azucar-capullos-rosa-te-esparcidos-sobre-fondo-negro_141793-7756.jpg?uid=R154465626&semt=sph",
     price: 37.82,
     stock: 100,
+    netWeight: "50g",
     CategoryId: 6,
   },
   {
@@ -147,6 +161,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/vainilla.jpg",
     price: 22.43,
     stock: 100,
+    netWeight: "60ml",
     CategoryId: 6,
   },
   {
@@ -157,6 +172,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/matcha.png",
     price: 18.19,
     stock: 100,
+    netWeight: ["100g"],
     CategoryId: 4,
   },
   {
@@ -167,19 +183,20 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/spirulina.png",
     price: 17.43,
     stock: 100,
+    netWeight: ["100g"],
     CategoryId: 4,
   },
   {
-    name: "Sweetener",
+    name: "Sugar",
     description:
-      "Natural sweetener alternative, perfect for those looking to reduce their sugar intake without sacrificing sweetness. It can be used in baking, cooking, and beverages.",
+      "The crystals are covered with a thin layer of cane honey, giving it its special color and extraordinarily sweet flavor. It can be used in baking, cooking, and beverages.",
     image:
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/azucar.png",
     price: 43.97,
     stock: 100,
+    netWeight: "1kg",
     CategoryId: 2,
   },
-
   {
     name: "Agave Syrup",
     description:
@@ -188,6 +205,7 @@ module.exports = [
       "https://as1.ftcdn.net/v2/jpg/06/38/14/80/1000_F_638148037_ntYYqORJrMg6jhGA0jSxl9Tk49IUx0dq.jpg",
     price: 42.12,
     stock: 100,
+    netWeight: "250ml",
     CategoryId: 2,
   },
   {
@@ -198,6 +216,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/crema_de_mani.jpg",
     price: 25.51,
     stock: 100,
+    netWeight: "500g",
     CategoryId: 1,
   },
   {
@@ -208,6 +227,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/leche_de_soja.png",
     price: 10.01,
     stock: 100,
+    netWeight: ["1L"],
     CategoryId: 3,
   },
   {
@@ -218,6 +238,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/leche_de_almendras.png",
     price: 32.87,
     stock: 100,
+    netWeight: ["1L"],
     CategoryId: 3,
   },
   {
@@ -228,6 +249,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/leche_de_coco.png",
     price: 34.45,
     stock: 100,
+    netWeight: ["1L"],
     CategoryId: 3,
   },
   {
@@ -238,6 +260,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/yogurt.png",
     price: 16.56,
     stock: 100,
+    netWeight: "500mL",
     CategoryId: 3,
   },
   {
@@ -248,6 +271,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/dulce_de_leche.png",
     price: 21.08,
     stock: 100,
+    netWeight: "500g",
     CategoryId: 2,
   },
   {
@@ -258,6 +282,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/downloadedImage_1.png",
     price: 24.51,
     stock: 100,
+    netWeight: "1 dozen",
     CategoryId: 3,
   },
   {
@@ -268,6 +293,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/vegan_pudding.png",
     price: 11.27,
     stock: 100,
+    netWeight: ["170g"],
     CategoryId: 3,
   },
   {
@@ -278,6 +304,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/seitan.png",
     price: 21.08,
     stock: 100,
+    netWeight: "500g",
     CategoryId: 3,
   },
   {
@@ -288,6 +315,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/queso_vegano.png",
     price: 21.38,
     stock: 100,
+    netWeight: "250g",
     CategoryId: 3,
   },
   {
@@ -298,6 +326,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/salami.png",
     price: 37.64,
     stock: 100,
+    netWeight: "200g",
     CategoryId: 3,
   },
   {
@@ -308,6 +337,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/pasta.png",
     price: 44.74,
     stock: 100,
+    netWeight: "500g",
     CategoryId: 1,
   },
   {
@@ -318,6 +348,7 @@ module.exports = [
       "https://img.freepik.com/foto-gratis/papas-fritas-mesa_144627-9101.jpg?semt=ais_user",
     price: 5.98,
     stock: 100,
+    netWeight: "150g",
     CategoryId: 7,
   },
   {
@@ -328,6 +359,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/yerba.png",
     price: 21.54,
     stock: 100,
+    netWeight: "1kg",
     CategoryId: 5,
   },
   {
@@ -338,6 +370,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/te.png",
     price: 20.01,
     stock: 100,
+    netWeight: "25g",
     CategoryId: 5,
   },
   {
@@ -348,6 +381,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/cafe_molido.jpg",
     price: 44.1,
     stock: 100,
+    netWeight: "1kg",
     CategoryId: 5,
   },
 ];
