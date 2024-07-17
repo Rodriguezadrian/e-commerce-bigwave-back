@@ -4,7 +4,7 @@ module.exports = [
     description:
       "Enjoy a delicious and healthy mix of granola, made with a variety of nuts, seeds, and oats, sweetened with natural honey. Perfect for an energetic breakfast or a nutritious snack.",
     image:
-      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/granola_5_semillas.jpg",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/granola.webp",
     price: 24.11,
     stock: 100,
     netWeight: "250g",
@@ -15,7 +15,7 @@ module.exports = [
     description:
       "Crunchy and nutritious cashew nuts, perfect for a healthy snack or as a versatile ingredient in your favorite recipes. Their mild flavor and creamy texture make them irresistible.",
     image:
-      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/castanas_de_caju_crudad.jpg",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/cachew%20chestnuts.webp?t=2024-07-17T16%3A53%3A48.247Z",
     price: 32.12,
     stock: 100,
     netWeight: "250g",
@@ -26,7 +26,7 @@ module.exports = [
     description:
       "Raw and wholesome almonds, perfect for a healthy snack, adding to your baking recipes, or even making your own almond milk at home. They are rich in vitamins and minerals.",
     image:
-      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/Almendras.jpg",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/almonds.webp",
     price: 28.58,
     stock: 100,
     netWeight: "250g",
@@ -48,7 +48,7 @@ module.exports = [
     description:
       "Delicious roasted peanuts, perfect for snacking or adding to your favorite dishes. They are rich in protein and provide a satisfying crunch in every bite.",
     image:
-      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/mani_crudo.jpg",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/peanuts.webp",
     price: 20.2,
     stock: 100,
     netWeight: "250g",
@@ -59,7 +59,7 @@ module.exports = [
     description:
       "Crispy corn flakes, a classic breakfast choice that pairs perfectly with milk or yogurt. Start your day with a bowl of these light and crunchy flakes.",
     image:
-      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/copos_de_maiz.jpg",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/Corn%20Flakes.webp",
     price: 46.92,
     stock: 100,
     netWeight: "250g",
@@ -81,7 +81,7 @@ module.exports = [
     description:
       "Nutritious rye grains, ideal for making homemade bread or adding to salads for a boost of fiber and nutrients. They have a distinct flavor that enhances any dish.",
     image:
-      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/harina_de_centeno.jpg",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/rye.webp",
     price: 33.8,
     stock: 100,
     netWeight: "1kg",
@@ -103,7 +103,7 @@ module.exports = [
     description:
       "High-fiber chia seeds, a superfood that can be added to smoothies, yogurt, or used to make chia pudding. They are packed with omega-3 fatty acids and antioxidants.",
     image:
-      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/semillas_de_chia.jpg",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/chia%20seeds.webp",
     price: 34.2,
     stock: 100,
     netWeight: "250g",
@@ -114,7 +114,7 @@ module.exports = [
     description:
       "Protein-rich organic quinoa, perfect as a side dish or a base for salads. It is a versatile and nutritious grain that can be enjoyed in many different ways.",
     image:
-      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/Quinoa_blanca.jpg",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/quinoa.webp",
     price: 27.21,
     stock: 100,
     netWeight: "500g",
@@ -147,7 +147,7 @@ module.exports = [
     description:
       "Aromatic ground cinnamon, perfect for baking, cooking, or adding a touch of spice to your drinks. It has a warm, sweet flavor that enhances any dish.",
     image:
-      "https://img.freepik.com/foto-gratis/vista-lateral-palitos-canela-cubitos-azucar-capullos-rosa-te-esparcidos-sobre-fondo-negro_141793-7756.jpg?uid=R154465626&semt=sph",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/cinnamon.webp",
     price: 37.82,
     stock: 100,
     netWeight: "50g",
@@ -158,7 +158,7 @@ module.exports = [
     description:
       "Flavorful vanilla extract, ideal for baking and cooking. It adds a rich and sweet flavor to your dishes, making it a must-have in any kitchen.",
     image:
-      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/vainilla.jpg",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/vainilla.webp",
     price: 22.43,
     stock: 100,
     netWeight: "60ml",
@@ -202,7 +202,7 @@ module.exports = [
     description:
       "Organic agave syrup, a natural sweetener with a mild flavor. Perfect for sweetening beverages, baking, or drizzling over pancakes and waffles.",
     image:
-      "https://as1.ftcdn.net/v2/jpg/06/38/14/80/1000_F_638148037_ntYYqORJrMg6jhGA0jSxl9Tk49IUx0dq.jpg",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/agave.webp",
     price: 42.12,
     stock: 100,
     netWeight: "250ml",
@@ -213,7 +213,7 @@ module.exports = [
     description:
       "Creamy peanut butter, perfect for spreading on toast, adding to smoothies, or using in baking. It is rich in protein and has a smooth, delicious flavor.",
     image:
-      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/crema_de_mani.jpg",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/peanute%20butter.webp",
     price: 25.51,
     stock: 100,
     netWeight: "500g",
@@ -334,7 +334,7 @@ module.exports = [
     description:
       "Nutritious whole grain pasta, perfect for a healthy and satisfying meal. This pasta is high in fiber and has a deliciously hearty flavor.",
     image:
-      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/pasta.png",
+      "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/pasta.webp",
     price: 44.74,
     stock: 100,
     netWeight: "500g",
