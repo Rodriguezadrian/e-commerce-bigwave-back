@@ -3,8 +3,9 @@ const { Product, Category, Sequelize } = require("../models");
 const ProductController = {
   index: async (req, res) => {
     try {
+      const { sortBy, order } = req.query;
       const products = await Product.findAll({
-        order: [["name", "ASC"]],
+        order: [[sortBy || "name", order || "ASC"]],
       });
       res.json(products);
     } catch (err) {
@@ -14,8 +15,24 @@ const ProductController = {
         .json({ message: "There was a problem trying to get the products" });
     }
   },
+  getByCategory: async (req, res) => {
+    try {
+      const { categoryId } = req.params;
+      const products = await Product.findAll({
+        where: { categoryId: categoryId },
+        include: [{ model: Category, attributes: ["name"] }],
+      });
+      res.json(products);
+    } catch {
+      console.error(`Error fetching products by category`, error);
+      res
+        .status(500)
+        .json({ message: "There was a problem trying to get the products" });
+    }
+  },
   store: async (req, res) => {
-    const { name, description, price, image, categoryId, stock } = req.body;
+    const { name, description, price, image, categoryId, stock, netWeight } =
+      req.body;
     try {
       const newProduct = await Product.create({
         name,
@@ -23,6 +40,7 @@ const ProductController = {
         price,
         stock,
         image,
+        netWeight,
         categoryId,
       });
       res.json(newProduct);

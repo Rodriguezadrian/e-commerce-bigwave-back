@@ -4,8 +4,9 @@ const { Product } = require("../models");
 const categoryController = {
   index: async (req, res) => {
     try {
+      const { sortBy, order } = req.query;
       const categories = await Category.findAll({
-        order: [["name", "ASC"]],
+        order: [[sortBy || "id", order || "DESC"]],
       });
       res.json(categories);
     } catch {
@@ -15,6 +16,7 @@ const categoryController = {
         .json({ message: "There was a problem trying to get the categories" });
     }
   },
+
   store: (req, res) => {
     try {
       const { name, description, image } = req.body;
