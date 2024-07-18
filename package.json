@@ -9,6 +9,7 @@
     "seeders": "node ./seeders/runAllSeeders.js"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.44.4",
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
@@ -19,6 +20,7 @@
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.10.1",
     "nanoid": "^3.3.7",
+    "path": "^0.12.7",
     "pg": "^8.12.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.3",

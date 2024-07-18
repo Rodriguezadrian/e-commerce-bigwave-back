@@ -1,4 +1,6 @@
 const { Product, Category, Sequelize } = require("../models");
+const uploadFile = require("../utils/fileUploader");
+const formidable = require("formidable");
 
 const ProductController = {
   index: async (req, res) => {
@@ -15,41 +17,33 @@ const ProductController = {
         .json({ message: "There was a problem trying to get the products" });
     }
   },
-  getByCategory: async (req, res) => {
-    try {
-      const { categoryId } = req.params;
-      const products = await Product.findAll({
-        where: { categoryId: categoryId },
-        include: [{ model: Category, attributes: ["name"] }],
-      });
-      res.json(products);
-    } catch {
-      console.error(`Error fetching products by category`, error);
-      res
-        .status(500)
-        .json({ message: "There was a problem trying to get the products" });
-    }
-  },
+
   store: async (req, res) => {
-    const { name, description, price, image, categoryId, stock, netWeight } =
-      req.body;
-    try {
-      const newProduct = await Product.create({
-        name,
-        description,
-        price,
-        stock,
-        image,
-        netWeight,
-        categoryId,
-      });
-      res.json(newProduct);
-    } catch (err) {
-      console.error(err);
-      res
-        .status(500)
-        .json({ message: "There was a problem trying to create the product" });
-    }
+    const form = formidable({
+      multiples: true,
+    });
+    form.parse(req, async (err, fields, files) => {
+      
+      const { name, description, price, categoryId, stock, netWeight } = fields;
+      try {
+        const newProduct = await Product.create({
+          name,
+          description,
+          price,
+          stock,
+          image: req.uploadedFile.id,
+          netWeight,
+          categoryId,
+        });
+        res.json(newProduct);
+      } catch (err) {
+        console.error(err);
+        res.status(500).json({
+          message: "There was a problem trying to create the product",
+        });
+      }
+    });
+    console.log("toy acaaaa form");
   },
   show: async (req, res) => {
     try {
@@ -106,6 +100,19 @@ const ProductController = {
       res
         .status(500)
         .json({ message: "There was a problem trying to update the stock" });
+    }
+  },
+  uploadImage: async (req, res) => {
+    try {
+      const productId = req.params.id;
+      await Product.update(
+        { image: req.uploadedFile.Key },
+        { where: { id: productId } }
+      );
+      res.status(200).json({ data: req.uploadedFile });
+    } catch (error) {
+      console.error("Error updating product image:", error);
+      res.status(500).json({ error: error.message });
     }
   },
 
