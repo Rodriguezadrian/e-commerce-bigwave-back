@@ -172,7 +172,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/matcha.png",
     price: 18.19,
     stock: 100,
-    netWeight: ["100g"],
+    netWeight: "100g",
     CategoryId: 4,
   },
   {
@@ -183,7 +183,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/spirulina.png",
     price: 17.43,
     stock: 100,
-    netWeight: ["100g"],
+    netWeight: "100g",
     CategoryId: 4,
   },
   {
@@ -227,7 +227,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/leche_de_soja.png",
     price: 10.01,
     stock: 100,
-    netWeight: ["1L"],
+    netWeight: "1L",
     CategoryId: 3,
   },
   {
@@ -238,7 +238,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/leche_de_almendras.png",
     price: 32.87,
     stock: 100,
-    netWeight: ["1L"],
+    netWeight: "1L",
     CategoryId: 3,
   },
   {
@@ -249,7 +249,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/leche_de_coco.png",
     price: 34.45,
     stock: 100,
-    netWeight: ["1L"],
+    netWeight: "1L",
     CategoryId: 3,
   },
   {
@@ -293,7 +293,7 @@ module.exports = [
       "https://wztvrfnbajbjaglagabq.supabase.co/storage/v1/object/public/images/Products/vegan_pudding.png",
     price: 11.27,
     stock: 100,
-    netWeight: ["170g"],
+    netWeight: "170g",
     CategoryId: 3,
   },
   {
