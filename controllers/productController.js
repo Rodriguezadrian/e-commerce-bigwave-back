@@ -28,7 +28,7 @@ const ProductController = {
         description,
         price,
         stock,
-        image: `${process.env.SUPABASE_IMAGES_URL}${req.uploadedFile.path}`,
+        image: `${process.env.SUPABASE_IMAGES_URL}/${req.uploadedFile.path}`,
         netWeight,
         categoryId,
       });
