@@ -1,5 +1,5 @@
 const { Product, Category, Sequelize } = require("../models");
-const uploadFile = require("../utils/fileUploader");
+const uploadFile = require("../middlewares/fileUploader");
 const formidable = require("formidable");
 
 const ProductController = {
@@ -19,31 +19,26 @@ const ProductController = {
   },
 
   store: async (req, res) => {
-    const form = formidable({
-      multiples: true,
-    });
-    form.parse(req, async (err, fields, files) => {
-      
-      const { name, description, price, categoryId, stock, netWeight } = fields;
-      try {
-        const newProduct = await Product.create({
-          name,
-          description,
-          price,
-          stock,
-          image: req.uploadedFile.id,
-          netWeight,
-          categoryId,
-        });
-        res.json(newProduct);
-      } catch (err) {
-        console.error(err);
-        res.status(500).json({
-          message: "There was a problem trying to create the product",
-        });
-      }
-    });
-    console.log("toy acaaaa form");
+    const { name, description, price, categoryId, stock, netWeight } =
+      req.fields;
+
+    try {
+      const newProduct = await Product.create({
+        name,
+        description,
+        price,
+        stock,
+        image: `${process.env.SUPABASE_IMAGES_URL}${req.uploadedFile.fullPath}`,
+        netWeight,
+        categoryId,
+      });
+      res.json(newProduct);
+    } catch (err) {
+      console.error(err);
+      res.status(500).json({
+        message: "There was a problem trying to create the product",
+      });
+    }
   },
   show: async (req, res) => {
     try {
