@@ -17,9 +17,7 @@ const uploadFile = async (req, res, next) => {
 
     const file = files.image;
     const filePath = file.filepath;
-
     const fileName = file.originalFilename;
-
     try {
       const buffer = fs.readFileSync(filePath);
 
