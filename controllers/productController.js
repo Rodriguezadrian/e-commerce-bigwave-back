@@ -21,14 +21,14 @@ const ProductController = {
   store: async (req, res) => {
     const { name, description, price, categoryId, stock, netWeight } =
       req.fields;
-
+    console.log(req.uploadedFile.path);
     try {
       const newProduct = await Product.create({
         name,
         description,
         price,
         stock,
-        image: `${process.env.SUPABASE_IMAGES_URL}${req.uploadedFile.fullPath}`,
+        image: `${process.env.SUPABASE_IMAGES_URL}${req.uploadedFile.path}`,
         netWeight,
         categoryId,
       });
